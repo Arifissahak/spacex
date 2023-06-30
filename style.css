@@ -1,0 +1,127 @@
+.photo{
+    width: 200px;
+    height: 30px; }
+.lst{
+    position: absolute;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 900;}
+.txt:hover{
+    text-decoration: underline;}
+.full{
+    margin-left: 20px;
+    height: 50px;}
+.btn{
+    position: relative;
+    margin-left: 24px;
+    background: none;
+    font-size: 16px;
+    font-weight: 900;
+    color: aliceblue;}
+.btn:hover{
+    text-decoration: underline;}
+.mar{
+    margin-left: 10px;
+    margin-top: 10px;}
+.ham{
+    width:25px;}
+.fst{
+    background-image: url(1stpage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;}
+.hed{
+    margin-top: 10px;}
+.shp{
+    margin-left: 30px;
+    margin-top: 10px;}
+.cont{
+    display: flex;
+    background-color: aqua;
+    margin-top: 55vh;
+    height: 150px;}
+.cc{
+    display: flex;
+    flex: 1;
+    font-size: 30px;}
+    .but{
+        display: block;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 30px;
+        color: #fcf9f9;
+        border: 2px solid #f3efef;
+        letter-spacing: 2px;
+        text-align: center;
+        position: relative;
+        transition: all .35s;
+      }
+      
+    .but span{
+        position: relative;
+        z-index: 2;
+      }
+      
+    .but:after{
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #ffffff;
+        transition: all .35s;
+      }
+      
+    .but:hover{
+        color: #000000;
+        text-decoration: none;
+      }
+      
+    .but:hover:after{
+        width: 100%;
+      }
+.butt{
+    position: relative;
+    min-width:150px;
+    height: 9vh;
+    background: transparent;
+    border-style:solid;
+    border-width: 3px;
+    border-color: aliceblue;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    }
+.butt:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: translate3d(0px, 0px, 0px);}
+.sndpage{
+    background-image: url(2ndpage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;}
+.snd{
+    position: absolute;}
+.trdpage{
+    background-image: url(3rdpage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;}
+.footer{
+    height: 10vh;
+    background-color: black;
+    align-items: center;
+    color: aliceblue;}
+.arro{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 61px;}
+.ic{
+    width: 50px;   }
